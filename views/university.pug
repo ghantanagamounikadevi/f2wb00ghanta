@@ -1,7 +1,7 @@
 extends layout
 block content
   h1= title
-    -let univers  =[{department:"computer science",location:"maryville",rank:30},{department:"arts and science",location:"arkansas",rank:35}]
+    -let univers  =[{department:"computer science",location:"maryville",rank:30},{department:"arts and science",location:"arkansas",rank:35},{department:"information technology",location:"texas",rank:20}]
   div(class="container-fluid")
   div(class="row")
 
@@ -14,7 +14,7 @@ block content
 
     script.
      
-      function get(line)
+      function buy(line)
       {
         alert(`university details ${line+1}`)
       }
