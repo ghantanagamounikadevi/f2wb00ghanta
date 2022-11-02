@@ -12,4 +12,9 @@ block content
                     div(class="col-sm-2" onclick=`buy(${index})`) #{university.location}
                     div(class="col-sm-2" onclick=`buy(${index})`) #{university.rank}
 
-   
+    script.
+     
+      function buy(line)
+      {
+        alert(`university details ${line+1}`)
+      }
